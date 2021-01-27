@@ -1,12 +1,12 @@
 def my_hash
-  snack= {"yum" => "triscuit"}  
+  snack= {"yum" => "triscuit"}
 end
 
 
 def shipping_manifest
   the_manifest = {
-      "whale bone corsets" => 5, 
-      "porcelain vases" => 2, 
+      "whale bone corsets" => 5,
+      "porcelain vases" => 2,
       "oil paintings" => 3
     }
 
@@ -19,9 +19,9 @@ def retrieval
                   "oil paintings" => 3
                  }
 
-  
+
   shipping_manifest["oil paintings"]
-  
+
 end
 
 def adding
@@ -30,11 +30,11 @@ def adding
                   "porcelain vases" => 2,
                   "oil paintings" => 3
                  }
-  
+
 shipping_manifest["muskets"]=2
 
 
-  
+
 shipping_manifest["gun powder"]=4
 
 
